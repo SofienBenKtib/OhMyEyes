@@ -1,0 +1,176 @@
+h1 {
+  text-align: center;
+  justify-content: center;
+  border: 5px solid #3694fd;
+  display: inline-block;
+  cursor: not-allowed;
+  border-left: 5px solid #369f4d;
+  border-right: 5px solid #7d7103;
+  padding: 20px;
+  border-bottom-right-radius: 70px;
+  border-top-left-radius: 80px;
+  border-top-right-radius: 22px;
+  border-top-left-radius: 90px;
+  background-image: url("../../public/Dolphin.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  position: relative;
+  text-shadow: 0 0 5px #ff0080, 0 0 10px #155332, 0 0 20px #ff0080,
+    0 0 40px #ff0080, 0 0 80px #bdee9c, 0 0 90px #ff0080, 0 0 100px #d1a505,
+    0 0 5px #00ff00, 0 0 10px #00ff00, 0 0 15px #00ff00, 0 0 20px #00ff00,
+    0 0 30px #00ff00, 0 0 5px #0000ff, 0 0 10px #0000ff, 0 0 15px #0000ff;
+}
+span:hover {
+  background-color: tomato;
+  letter-spacing: 25px;
+  color: black;
+  cursor: grab;
+}
+h3 {
+  background-color: red;
+  padding: 5px;
+  text-decoration: underline;
+  text-decoration-color: yellow;
+  text-decoration-thickness: 6px;
+}
+
+.info {
+  width: 80%;
+  padding: 8px;
+  background-color: red;
+  margin: auto;
+  border: 5px dashed grey;
+  position: relative;
+  animation: moveBorder 1s linear infinite;
+}
+@keyframes moveBorder {
+  0% {
+    border-left: 5px dashed #3498db;
+    border-top: 5px dashed #3498db;
+    border-right: 5px dashed #3498db;
+    border-bottom: 5px dashed #3498db;
+  }
+  25% {
+    border-left: 5px dashed #e74c3c;
+    border-top: 5px dashed #e74c3c;
+    border-right: 5px dashed #e74c3c;
+    border-bottom: 5px dashed #e74c3c;
+  }
+  50% {
+    border-left: 5px dashed #2ecc71;
+    border-top: 5px dashed #2ecc71;
+    border-right: 5px dashed #2ecc71;
+    border-bottom: 5px dashed #2ecc71;
+  }
+  75% {
+    border-left: 5px dashed #f39c12;
+    border-top: 5px dashed #f39c12;
+    border-right: 5px dashed #f39c12;
+    border-bottom: 5px dashed #f39c12;
+  }
+  100% {
+    border-left: 5px dashed #3498db;
+    border-top: 5px dashed #3498db;
+    border-right: 5px dashed #3498db;
+    border-bottom: 5px dashed #3498db;
+  }
+}
+
+.shakingDiv {
+  width: 85%;
+  background-color: yellow;
+  color: black;
+  font-size: 18px;
+  font-style: italic;
+  margin: 100px auto;
+  animation: shake 0.8s ease-in-out infinite;
+}
+@keyframes shake {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  75% {
+    transform: translateX(-10px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.game {
+  width: 80%;
+  height: 40vh;
+  margin: auto;
+  background-color: #bdee9c;
+}
+
+.game > button {
+  padding: 10px;
+  font-weight: bolder;
+  border: none;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px 20px;
+  background-color: gray;
+  color: black;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  animation: moveButton 3s linear infinite;
+}
+
+.game > button:hover {
+  animation: moveButton 0.5s linear infinite;
+}
+@keyframes moveButton {
+  0% {
+    top: 10%;
+    left: 10%;
+  }
+  25% {
+    top: 80%;
+    left: 20%;
+  }
+  50% {
+    top: 40%;
+    left: 80%;
+  }
+  75% {
+    top: 70%;
+    left: 60%;
+  }
+  100% {
+    top: 10%;
+    left: 50%;
+  }
+}
+.game2 {
+  width: 75%;
+  margin: auto;
+  background-color: tomato;
+  margin-top: 120px;
+  height: 500px;
+}
+
+img {
+  width: 350px;
+  height: 350px;
+  border-radius: 250px;
+}
+
+.tips {
+  width: 90%;
+  margin: auto;
+  background-color: black;
+  color: yellow;
+  font-weight: 600;
+}

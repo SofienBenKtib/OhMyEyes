@@ -1,0 +1,18 @@
+.footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%; /* Full width */
+  height: 100px; /* Footer height */
+  background-image: url("../../public/spirale.gif"); /* Add your image URL */
+  background-size: cover; /* Ensure the image covers the entire footer */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent tiling */
+  color: white; /* Text color */
+  text-align: center; /* Center text horizontally */
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2); /* Optional: Adds a shadow above the footer */
+  z-index: 1000; /* Ensure the footer stays on top */
+}

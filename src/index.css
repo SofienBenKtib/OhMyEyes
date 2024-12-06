@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital,wght@0,400..700;1,400..700&family=Ribeye+Marrow&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap");
+* {
+  cursor: url("../public/assets/images.png"), auto;
+}
+
+/* Style the entire scrollbar */
+::-webkit-scrollbar {
+  width: 12px; /* Width for vertical scrollbar */
+  height: 12px; /* Height for horizontal scrollbar */
+}
+
+/* Style the track (background of the scrollbar) */
+::-webkit-scrollbar-track {
+  background: yellowgreen; /* Light gray background */
+  border-radius: 10px;
+}
+
+/* Style the thumb (draggable part of the scrollbar) */
+::-webkit-scrollbar-thumb {
+  background: blue; /* Blue thumb */
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+/* Change the thumb color on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: red; /* Darker blue on hover */
+}
+
+body {
+  font-family: "Titillium Web", serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #4b2652;
+  background-image: url("../public/lol.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: url("./arrow.png"), auto;
+}

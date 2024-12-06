@@ -1,0 +1,35 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fec53d;
+  color: #931ea8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.nav-item:hover {
+  color: #ff9800;
+}
+
+a:hover {
+  font-weight: bolder;
+  letter-spacing: 5px;
+  color: #369f4d;
+  background-color: #e8dca2;
+}
+.navbar:hover {
+  background-color: transparent;
+}
